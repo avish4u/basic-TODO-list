@@ -1,0 +1,90 @@
+body{
+	 background-image : linear-gradient(to right, #000000 , #0c5ef2);
+}
+h1{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 250%;
+	
+	
+	width: 40%;
+	margin-left: 27%;
+	margin-top: 5%;
+}
+input{
+	width: 27%;
+	line-height: 2;
+	margin-left: 31%;
+	margin-top: 8%;
+}
+#add{
+	line-height: 2;
+	/*width: 7%;*/
+	font-family: 'Poppins', sans-serif;
+	/*font-weight: bolder;
+	font-size: 13px;*/
+	background: white;
+	padding-left:  1%;
+	padding-right: 1%;
+
+
+}
+#add:hover{
+	background: black;
+	color: white;
+
+}
+.todo-item{
+	color: #443e3d;
+	font-size: 1rem;
+	margin-left: 2%;
+	background: white;
+	font-family: 'Poppins', sans-serif;
+}
+.todo{
+	
+	display: flex;
+	align-items: center;
+	width: 30%;
+	margin-left: 29%;
+}
+#main{
+	min-width: 30%;
+	list-style: none;
+}
+.todo li{
+	flex: 1;
+}
+.fa-trash-alt,.fa-check{
+	pointer-events: none;
+	
+
+}
+
+.trash-btn,.complete-btn{
+   
+    background: white;
+
+
+	}
+
+.trash-btn:hover,.complete-btn:hover{
+	background: black;
+	color: white;
+}
+
+.completed{
+	text-decoration: line-through;
+	opacity: 0.5;
+	transition: all 0.5s ease;
+}
+.deleted{
+	transition: all 0.5s ease;
+	transform: translateY(7rem) rotateZ(20deg);
+	opacity: 0;
+}
+
+
+
+
